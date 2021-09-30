@@ -4,7 +4,7 @@ I'm Hansae Ju (Verssae)
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Verssae)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Verssae&show_icons=true&theme=onedark)](https://github.com/anuraghazra/github-readme-stats)
 
 <!--
 **Verssae/Verssae** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
