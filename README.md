@@ -4,7 +4,6 @@ I'm Hansae Ju (Verssae)
 <!-- BLOG-POST-LIST:START -->
 - [Hugo-blog (README)](https://verssae.github.io/posts/hugo/)
 - [SSH 접속하기](https://verssae.github.io/posts/ssh/)
-- [Rss](https://verssae.github.io/rss/)
 <!-- BLOG-POST-LIST:END -->
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Verssae&show_icons=true&theme=onedark)](https://github.com/anuraghazra/github-readme-stats)
