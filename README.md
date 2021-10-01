@@ -1,6 +1,6 @@
 ### Hi there 👋
 I'm Hansae Ju (Verssae)
-### Blog posts (Test)
+### Blog posts 
 <!-- BLOG-POST-LIST:START -->
 - [Hugo-blog (README)](https://verssae.github.io/posts/hugo/)
 - [SSH 접속하기](https://verssae.github.io/posts/ssh/)
