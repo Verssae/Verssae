@@ -2,6 +2,8 @@
 I'm Hansae Ju (Verssae)
 ### Blog posts 
 <!-- BLOG-POST-LIST:START -->
+- [[Python] 데스크톱 알림 보내기](https://verssae.github.io/posts/py-notifier/)
+- [ASE 2021 트렌드 조사](https://verssae.github.io/posts/ase2021trend/)
 - [Hugo-blog (README)](https://verssae.github.io/posts/hugo/)
 - [SSH 접속하기](https://verssae.github.io/posts/ssh/)
 <!-- BLOG-POST-LIST:END -->
