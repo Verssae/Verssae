@@ -4,9 +4,9 @@ I'm Hansae Ju (Verssae)
 <!-- BLOG-POST-LIST:START -->
 - [[Python] Discord Webhook으로 학습 종료 시 알림 보내기](https://verssae.github.io/posts/py-discord-webhook/)
 - [[Python] 데스크톱 알림 보내기](https://verssae.github.io/posts/py-notifier/)
+- [ASE 2020 트렌드 조사](https://verssae.github.io/posts/ase2020trend/)
 - [ASE 2021 트렌드 조사](https://verssae.github.io/posts/ase2021trend/)
 - [Hugo-blog (README)](https://verssae.github.io/posts/hugo/)
-- [SSH 접속하기](https://verssae.github.io/posts/ssh/)
 <!-- BLOG-POST-LIST:END -->
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Verssae&show_icons=true&theme=onedark)](https://github.com/anuraghazra/github-readme-stats)
