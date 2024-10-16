@@ -333,6 +333,8 @@
 % Usage: \linkedin{<linked-in-nick>}
 \newcommand*{\linkedin}[1]{\def\@linkedin{#1}}
 
+\newcommand*{\notion}[1]{\def\@notion{#1}}
+
 % Defines writer's orcid (optional)
 % Usage: \orcid{<orcid-num>}
 \newcommand*{\orcid}[1]{\def\@orcid{#1}}
@@ -559,6 +561,12 @@
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
           \href{https://www.linkedin.com/in/\@linkedin}{\faLinkedin\acvHeaderIconSep \@linkedin}%
+        }%
+      \ifthenelse{\isundefined{\@notion}}%
+        {}%
+        {%
+          \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
+          \href{\@notion}{\faHome\acvHeaderIconSep Notion}%
         }%
       \ifthenelse{\isundefined{\@orcid}}%
         {}%
