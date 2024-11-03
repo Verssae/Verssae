@@ -1,0 +1,138 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+\usepackage{tcolorbox}
+
+\definecolor{mycolor}{HTML}{ff4b33}  % #ff4b33 색상 정의
+
+\newtcbox{\badge}[1][mycolor]{
+  on line, 
+  arc=1.5pt,
+  colback=#1!80!black,
+  colframe=#1!80!black,
+  fontupper=\color{white},
+  boxrule=1pt, 
+  boxsep=0pt,
+  left=5pt,
+  right=5pt,
+  top=1pt,
+  bottom=1pt,
+  height=12pt,   % 고정 높이 설정
+  baseline=3pt   % 기준선을 맞춰줌
+}
+\newcommand{\githubCode}{\faGithub\space Code}
+\newcommand{\gh}[2]{\href{#1}{\faGithub\space #2}}
+\newcommand{\preprint}{\faFilePdf[regular]\space Prerpint}
+\newcommand{\paper}{\faFilePdf\space Paper}
+
+% \usepackage{xeCJK}
+% \setCJKmainfont{Noto Sans KR}
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+% \colorlet{awesome}{awesome-emerald}
+% Uncomment if you would like to specify your own color
+\definecolor{awesome}{HTML}{ff4b33}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+% \definecolor{sectiondivider}{HTML}{5D5D5D}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+\photo[noedge]{./photo.jpg}
+
+\name{Hansae Ju}{(주한새)}
+\position{지원 포지션: 데이터분석가/AI엔지니어}
+% \address{\faExclamationCircle \space 현재 박사 수료 상태이며, 전문연구요원(현역) 신규 편입 구직 중 입니다!}
+% \address{235, World Cup buk-ro, Mapo-gu, Seoul, 03936, Republic of Korea}
+
+
+\mobile{(+82) 10-5357-2714}
+\email{sparky@hanyang.ac.kr}
+% \homepage{https://juhansae.notion.site/Hansae-Ju-Verssae-47389bdcf4f648518e97b07a0a803e56}
+\github{Verssae}
+% \linkedin{juhansae}
+% \notion{https://juhansae.notion.site/Hansae-Ju-Verssae-47389bdcf4f648518e97b07a0a803e56}
+\dateofbirth{\space July 15th, 1998}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{medium-id}
+% \kaggle{kaggle-id}
+% \hackerrank{hackerrank-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+\extrainfo{\faHome\space 경기도 안산시 상록구 후곡안길 4, 201호}
+
+% \quote{[전문연구요원] Job Application for Software Engineer / Data Scientist / R \& D Engineer}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal information
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {Updated: \today}
+  {Hansae Ju~~·~~~Resume/CV}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%-------------------------------------------------------------------------------
+
+\input{resume/about.tex}
+\input{resume/skills.tex}
+\input{cv/education.tex}
+\input{cv/experience.tex}
+\input{cv/project.tex}
+\input{cv/publication.tex}
+% \input{cv/certificates.tex}
+
+%-------------------------------------------------------------------------------
+\end{document}
