@@ -17,8 +17,8 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v1.1.0
         with:
           card: stats
-          token: ${{ secrets.GITHUB_TOKEN }}
-          options: "username=Verssae&show_icons=true&theme=calm&hide_border=true"
+          token: ${{ secrets.GH_PAT }}
+          options: "username=Verssae&show_icons=true&theme=calm&hide_border=true&count_private=true"
           path: profile/stats.svg
 
       - name: Commit and push
