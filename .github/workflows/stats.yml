@@ -18,7 +18,7 @@ jobs:
         with:
           card: stats
           token: ${{ secrets.GH_PAT }}
-          options: "username=Verssae&show_icons=true&theme=calm&hide_border=true&count_private=true"
+          options: "username=Verssae&show_icons=true&theme=calm&hide_border=true&count_private=true&include_all_commits=true"
           path: profile/stats.svg
 
       - name: Commit and push
