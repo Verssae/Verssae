@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Hansae Ju's GitHub Stats, Rank: B+</title>
-        <desc id="descId">Total Stars Earned: 53, Total Commits  : 1679, Total PRs: 61, Total Issues: 38, Contributed to (last year): 1</desc>
+        <desc id="descId">Total Stars Earned: 53, Total Commits  : 1724, Total PRs: 61, Total Issues: 38, Contributed to (last year): 1</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 113.33218089442515;
+        stroke-dashoffset: 112.93044406114866;
       }
     }
   
